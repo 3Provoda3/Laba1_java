@@ -1,7 +1,14 @@
+import java.util.Scanner;
+
 public class Lab1 {
     public static void main(String[] args) {
-        int x = 6;
-        int z = 5;
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Введіть значення x: ");
+        int x = scanner.nextInt();
+
+        System.out.print("Введіть значення z: ");
+        int z = scanner.nextInt();
 
         int y;
 
